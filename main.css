@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    background: url(../../dars/git-test/img/header\ banner.png) no-repeat center/cover;
+    min-height: 565px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color:#322E41;
+}
+
+.nav{
+    max-width: 1140px;
+    width: 110%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__link{
+    padding: 23px 15px;
+    display: block;
+    border-bottom: 2px solid  transparent;
+    color: white;
+    transition: 200ms;
+}
+
+.nav__link:hover{
+    color:#FFE600;
+    border-color: white
+
+}
+
+.header__content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header__content-title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.header__content-desc{
+    font-size: 18px;
+}
+
